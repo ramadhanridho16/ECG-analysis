@@ -1,0 +1,45 @@
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+ekg_cache/
+dataset/
+cachedir/
+
+
+# ==== Jupyter Notebook ====
+.ipynb_checkpoints/
+
+# ==== Virtual Environment ====
+venv/
+env/
+.venv/
+
+# ==== VSCode Settings ====
+.vscode/
+
+# ==== Dataset dan hasil processing ====
+data/
+*.csv
+*.xlsx
+*.npy
+*.npz
+*.h5
+*.mat
+
+# ==== Model terlatih ====
+*.joblib
+*.pkl
+*.sav
+
+# ==== Cache dan log ====
+.cache/
+logs/
+*.log
+
+# ==== Streamlit Cache ====
+.streamlit/
